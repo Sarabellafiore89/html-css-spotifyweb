@@ -1,16 +1,40 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 /* regole blocco macro */
 
-#main-block {
+#wrapper {
+    display: flex;
     height: calc(100vh - 100px);
     background-color: #141922;
 
+}
+
+/*  regole navigator */
+
+#wrapper nav {
+
+    height: 100%;
+    width: 250px;
+    background-color: #000000;
+
+}
+
+/* regole contenuto principale */
+
+#wrapper main{
+    
+    overflow: auto;
+    height:100%;
+    width:calc(100% - 250px );
+    background-color: #141922;
+    
 }
 
 
