@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+
+/* regole blocco macro */
+
+#contenuto {
+    height: calc(100vh - 100px);
+    background-color: #141922;
+
+}
+
+
+
+
+
+
+
+    /*  regole controller */
+
+#controller{
+    height:100px;
+    background-color: #282828;
+
+
+}
