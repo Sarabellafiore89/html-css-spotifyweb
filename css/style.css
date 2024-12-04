@@ -181,6 +181,7 @@ h2{
 .album {
     width:calc(100%/6);
     margin: 10px 10px;
+    padding:20px;
 }
 
 .album img{
@@ -203,15 +204,11 @@ h2{
 }
 
 
+/* blocco artisti popolari */
 
-
-
-
-
-
-
-
-
+.tondi{
+    border-radius: 99px;
+}
 
 
 /*  regole controller/footer */
