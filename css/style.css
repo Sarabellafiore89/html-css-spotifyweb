@@ -77,6 +77,29 @@ h3{
     
 }
 
+#side-bar-bottom{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#side-bar-bottom span{
+    
+}
+
+span img{
+    width: 25px;
+    
+}
+
+span{
+    color:#686868;
+  }
+
+  h3 img{
+    width:25px;
+  }
+
 
 
 
