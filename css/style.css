@@ -175,17 +175,37 @@ h2{
 
 .row{
     display: flex;
-    justify-content: space-around;
+
 }
 
 .album {
-    width:30%;
+    width:calc(100%/6);
     margin: 10px 10px;
 }
 
 .album img{
     max-width: 100%;
 }
+
+.title{
+    color: white;
+}
+
+.subtitle{
+    color: #7d7f84;
+}
+
+/* blocco creato per te */
+
+.ascolti{
+    font-size:15px;
+    margin-left: 10px;
+}
+
+
+
+
+
 
 
 
