@@ -165,6 +165,28 @@ a{
     margin:15px 10px;
 }
 
+/* blocco recently played */
+h2{
+    color: white;
+    padding: 10px;
+}
+
+/* prima riga album */
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.album {
+    width:30%;
+    margin: 10px 10px;
+}
+
+.album img{
+    max-width: 100%;
+}
+
 
 
 
