@@ -26,10 +26,25 @@
 
 }
 
+/* regole side bar */
+
+#side-bar{
+
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding:1rem;
+}
+
+#logo-grande{
+    width:150px;
+    
+}
+
 /* regole contenuto principale */
 
 #wrapper main{
-    
+
     overflow: auto;
     height:100%;
     width:calc(100% - 250px );
@@ -37,17 +52,16 @@
     
 }
 
+p{
+    color: white;
+}
 
 
 
-
-
-
-    /*  regole controller */
+    /*  regole controller/footer */
 
 #controller{
     height:100px;
     background-color: #282828;
-
 
 }
