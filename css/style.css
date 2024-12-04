@@ -41,6 +41,18 @@
     
 }
 
+
+li img{
+    width:25px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-size: 10px;
+}
+
 /* regole contenuto principale */
 
 #wrapper main{
