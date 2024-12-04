@@ -112,14 +112,7 @@ span{
 
 /* regole contenuto principale */
 
-#wrapper main{
 
-    overflow: auto;
-    height:100%;
-    width:calc(100% - 250px );
-    background-color: #141922;
-    
-}
 /* header e button */
 header{
     display: flex;
@@ -128,6 +121,7 @@ header{
     height: 100px;
     position: sticky;
     background-color: #080b12b2;
+    right:0;
 }
 
 
@@ -139,6 +133,41 @@ header{
     padding:10px;
 
 }
+
+/* regole nav top */
+
+
+#wrapper main{
+
+    overflow: auto;
+    height:100%;
+    width:calc(100% - 250px );
+    background-color: #141922;
+     
+}
+
+
+.link-navigator{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px;
+    color: #7d7f84;
+    font-weight: 700;
+}
+
+.link-navigator li{
+    list-style: none;
+    margin:15px 10px;
+}
+
+
+
+
 
 
 
