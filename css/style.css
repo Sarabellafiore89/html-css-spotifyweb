@@ -53,6 +53,42 @@ a{
     font-size: 10px;
 }
 
+h3{
+    color: white;
+    margin-top:20px;
+}
+
+.fa-solid{
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    margin-top:20px;
+}
+
+.crea{
+    color:#686868;
+    font-size:20px;
+}
+
+#playlist li{
+    padding:2px;
+    color:#686868;
+    padding:10px;
+    
+}
+
+
+
+
+
+#playlist ul{
+
+}
+
+#playlist{
+    overflow: auto;
+}
+
 /* regole contenuto principale */
 
 #wrapper main{
@@ -64,9 +100,7 @@ a{
     
 }
 
-p{
-    color: white;
-}
+
 
 
 
