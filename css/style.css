@@ -60,9 +60,10 @@ h3{
 
 .fa-solid{
     font-weight: 900;
-    color: white;
+    color: black;
     font-size: 50px;
     margin-top:20px;
+    background-color: #a3a3a3;
 }
 
 .crea{
@@ -101,9 +102,6 @@ span{
   }
 
 
-
-
-
 #playlist ul{
 
 }
@@ -122,12 +120,30 @@ span{
     background-color: #141922;
     
 }
+/* header e button */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100px;
+    position: sticky;
+    background-color: #080b12b2;
+}
+
+
+.button{
+    color: white;
+    border:1px solid white;
+    border-radius:99px;
+    font-size:10px;
+    padding:10px;
+
+}
 
 
 
 
-
-    /*  regole controller/footer */
+/*  regole controller/footer */
 
 #controller{
     height:100px;
