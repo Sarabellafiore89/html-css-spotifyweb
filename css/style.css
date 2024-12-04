@@ -219,3 +219,36 @@ h2{
     background-color: #282828;
 
 }
+/* blocco sinistro */
+
+.blocco-sx{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+h4{
+    color: white;
+}
+
+.blocco-sx img{
+    width:5%;
+    margin:1%;
+}
+
+.icons{
+    display: flex;
+    padding:3%;
+    color: grey;
+    
+}
+
+.fa-folder{
+    padding:2%;
+}
+
+
+
+
+
