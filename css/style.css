@@ -426,8 +426,21 @@ margin:10px;
         flex-wrap: wrap;
         flex-basis: calc( 100% / 4 );
     }
+
+}
     
-   
+    /* LAYOUT MEDIUM MOBILE */
+
+    @media screen and (max-width: 668px){
+
+        .link-navigator{
+            
+        }
+    }
+
+
+    
+    
 
     
 
