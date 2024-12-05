@@ -34,6 +34,7 @@
     flex-direction: column;
     height:100%;
     padding:1rem;
+   
 }
 
 #logo-grande{
@@ -100,6 +101,7 @@ span{
 
 
 #playlist ul{
+    
 
 }
 
@@ -118,8 +120,9 @@ header{
     justify-content: right;
     height: 100px;
     position: sticky;
-    background-color: #080b12b2;
+    background-color: #080b126b;
     right:0;
+    
 }
 
 
@@ -223,6 +226,7 @@ h2{
 .blocco-sx{
     display: flex;
     align-items: center;
+    flex-basis: 25%;
 
 
 }
@@ -244,15 +248,16 @@ h4{
     
 }
 
-.fa-folder{
-    padding:2%;
+.icons i{
+    margin-right: 10px;
 }
 
 /* parte centrale */
 
 .blocco-central{
     text-align: center;  
-    width: 30%;
+    flex-basis: 50%;
+    margin:20px;
 }
 
 .player i{
@@ -273,13 +278,31 @@ margin:10px;
     height: 5px;
     background-color: #5a5a5a;
     border-radius: 10px;
+    width:100px;
 }
 
-.musica.ascolto{
-    width: 250px;
+.ascolto{
+    height: 5px;
+    width: 60px;
+    background-color: white;
 }
 
 /* blocco dx */
+
+.blocco-dx{
+    flex-basis: 25%;
+    
+    
+}
+
+.blocco-dx i{
+    background-color: #282828;  
+    text-align: end;
+    color: white;
+    font-size: 20px;
+    margin:10px;
+    padding:30px;
+}
 
 
 
