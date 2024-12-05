@@ -81,11 +81,8 @@ h3{
 #side-bar-bottom{
     display: flex;
     flex-direction: column;
-   
-}
-
-#side-bar-bottom span{
     
+   
 }
 
 span img{
@@ -108,6 +105,7 @@ span{
 
 #playlist{
     overflow: auto;
+    
 }
 
 /* regole contenuto principale */
@@ -215,6 +213,7 @@ h2{
 /*  regole controller/footer */
 
 #controller{
+    display: flex;
     height:100px;
     background-color: #282828;
 
@@ -224,7 +223,7 @@ h2{
 .blocco-sx{
     display: flex;
     align-items: center;
-    
+
 
 }
 
@@ -233,20 +232,56 @@ h4{
 }
 
 .blocco-sx img{
-    width:5%;
+    width:10%;
     margin:1%;
 }
 
-.icons{
+.icons {
     display: flex;
     padding:3%;
     color: grey;
+    text-align: center;
     
 }
 
 .fa-folder{
     padding:2%;
 }
+
+/* parte centrale */
+
+.blocco-central{
+    text-align: center;  
+    width: 30%;
+}
+
+.player i{
+color: white;
+font-size: 20px;
+background-color: #282828;
+margin:10px;
+}
+
+.minuti{
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.musica{
+    display: inline-block;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 10px;
+}
+
+.musica.ascolto{
+    width: 250px;
+}
+
+/* blocco dx */
+
+
 
 
 
