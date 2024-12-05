@@ -383,7 +383,7 @@ margin:10px;
 
 /* Layout tablet max 768px */
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 868px){
 
     /* contenuto album */
     .row{
@@ -426,11 +426,14 @@ margin:10px;
         flex-wrap: wrap;
         flex-basis: calc( 100% / 4 );
     }
+    
+   
 
     
 
-    
-}
+
+
+
 
 
 
