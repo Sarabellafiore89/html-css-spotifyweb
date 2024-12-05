@@ -379,6 +379,59 @@ margin:10px;
     background-color: white
 }
 
+/* RESPONSIVE */
+
+/* Layout tablet max 768px */
+
+@media screen and (max-width:768px){
+
+    /* contenuto album */
+    .row{
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
+    .card{
+        width:100px;
+    }
+
+    .album{
+        padding: 5px;
+    }
+
+    .title{
+        font-size:10px;
+    }
+
+    .subtitle{
+        margin:5px 0;
+    }
+
+    /* contenuto header*/
+
+    header{
+        display: block;
+        position: relative;
+        width:100%;
+        height: 10%;
+    }
+
+    a.button{
+        position: absolute;
+        margin:20px;
+
+    }
+
+    .link-navigator{
+        flex-wrap: wrap;
+        flex-basis: calc( 100% / 4 );
+    }
+
+    
+
+    
+}
+
 
 
 
