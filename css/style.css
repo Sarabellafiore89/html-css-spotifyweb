@@ -36,6 +36,12 @@
     padding:1rem;
    
 }
+/* regole hover sul testo */
+
+.white:hover{
+    color:white;
+
+}
 
 #logo-grande{
     width:100px;
